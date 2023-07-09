@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SG ROOFING</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('BRR8-epvygCayvwY_');
+        //emailjs.init('xNlQDAxiI0UPuw-Jp');
+
+
+    })();
+</script>
+
+
+<script type="text/javascript">
+  window.onload = function() {
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+          // const email = document.getElementById('email').value;
+
+          // // generate a five digit number for the contact_number variable
+          // this.contact_number.value = document.getElementById('contact_number').value;
+          // these IDs from the previous steps
+          emailjs.sendForm('abc', 'template_h03wv7e', this)
+              .then(function() {
+                  console.log('SUCCESS!');
+                  alert('Message sent successfully'); // Show an alert
+
+              }, function(error) {
+                alert('Failed to send message'); // Show an error alert
+                  console.log('FAILED...', error);
+              });
+      });
+  }
+</script>
+
+
+    
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:sgroofing22@gmail.com">sgroofing22@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 604 720 8142</span></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html">SG ROOFING</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">What we can do</a></li>
+          <li class="dropdown"><a href="#"><span>Service Areas </span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Fraser Valley</a></li>
+              <li><a href="#">South Fraser</a></li>
+
+              <li class="dropdown"><a href="#"><span>Tri cities</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Coquitlam</a></li>
+                  <li><a href="#">Port Coquitlam</a></li>
+                  <li><a href="#">Port Moody</a></li>
+                  <li><a href="#">Pitt Meadows</a></li>
+                  <li><a href="#">Anmore</a></li>
+                  <li><a href="#">Delta</a></li>
+
+                </ul>
+              </li>
+              <li><a href="#">Greater Vancouver</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Warranties</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Material Warranty</a></li>
+              <li><a href="#">Labour Warranty</a></li>
+              <li><a href="#">Worksafe BC</a></li>
+
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>SG ROOFING</h1>
+
+   
+        <h2>A BUSINESS BUILT ON REPUTATION</h2>
+  
+        <div class="sub-container">
+        <h3>Quote : 1-604-720-8142 </h2>
+        <h3>sgroofing22@gmail.com </h2>
+      </div>
+     
+
+
+
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+         <!-- Include Services -->
+        <!-- Icons Grid-->
+
+
+      <section id="services" class="features-icons bg-light text-center">
+        <div class="container2">
+            <h1 class="mb-5"><b>Services</b></h1>
+            <div class="row2 slideanim2">
+              <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <!-- <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div> -->
+                    <div class="container rounded modify-hover" element-id="services_img_0">
+                        <img id="services_img_0" class="img-fluid rounded-circle mb-3" src="assets/img/Residential.jpg" alt="..." />
+                    </div>
+                    <div class="container rounded modify-hover" element-id="services_0_We are committed to providing exceptional service to our clientstitle">
+                        <h3 id="services_0_title">Residential</h3>
+                        <p id="services_0_description" class="mb-0">We provide all types of residential roofing including replacements, repairs and renovations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="container rounded modify-hover" element-id="services_img_1">
+                        <img id="services_img_1" class="img-fluid rounded-circle mb-3" src="https://images.unsplash.com/photo-1534073804884-d80017c6a5ba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw0MjkxODB8MHwxfHNlYXJjaHw0fHxSb29maW5nfGVufDB8fHx8MTY4MTU2MjI0MQ&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400" alt="..." />
+                    </div>
+                    <div class="container rounded modify-hover" element-id="services_1_title">
+                        <h3 id="services_1_title">Commercial</h3>
+                        <p id="services_1_description" class="mb-0">We offer all types of high quality commericial roofing including repairs and replacements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">                            
+                    <!-- <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div> -->
+                    <div class="container rounded modify-hover" element-id="services_img_2">
+                        <img id="services_img_2" class="img-fluid rounded-circle mb-3" src="https://images.unsplash.com/photo-1481305717251-830ac10fb6e6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw0MjkxODB8MHwxfHNlYXJjaHw2fHxSb29maW5nfGVufDB8fHx8MTY4MTU2MjI0MQ&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400" alt="..." />
+                    </div>
+                    <div class="container rounded modify-hover" element-id="services_2_title">
+                        <h3 id="services_2_title">Strata</h3>
+                        <p id="services_2_description" class="mb-0">Our services expand to strata roofing including duplexes, townhouses, unexpected damages and repairs.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+            
+          <div class="row2 slideanim2">
+            <!-- New row of services -->
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="container rounded modify-hover" element-id="services_img_3">
+                        <img id="services_img_3" class="img-fluid rounded-circle mb-3" src="assets/img/torch.jpeg" alt="..." />
+                    </div>
+                    <div class="container rounded modify-hover" element-id="services_3_title">
+                        <h3 id="services_3_title">Torch On</h3>
+                        <p id="services_3_description" class="mb-0">Our experts specialize in torch on roofing, a durable and waterproof solution ideal for flat roofs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="container rounded modify-hover" element-id="services_img_4">
+                        <img id="services_img_4" class="img-fluid rounded-circle mb-3" src="assets/img/shingles.jpeg" alt="..." />
+                    </div>
+                    <div class="container rounded modify-hover" element-id="services_4_title">
+                        <h3 id="services_4_title">Side Wall Ashphalt Shingles</h3>
+                        <p id="services_4_description" class="mb-0">We provide expert installation and repair of side wall shingles, enhancing the aesthetic and protection of your building.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="container rounded modify-hover" element-id="services_img_5">
+                        <img id="services_img_5" class="img-fluid rounded-circle mb-3" src="assets/img/repair.jpeg" alt="..." />
+                    </div>
+                    <div class="container rounded modify-hover" element-id="services_5_title">
+                        <h3 id="services_5_title">Repairs</h3>
+                        <p id="services_5_description" class="mb-0">Our experienced team offers comprehensive roof repair services, ensuring the safety and longevity of your roof.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+    
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="zoom-in">
+          </div>
+
+          <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <div class="box-heading" data-aos="fade-up">
+              <h4>About us</h4>
+              <h3>Our goal is to produce high quality of work to our customers satisfaction.</h3>
+              <p>
+                Our commitment to providing exceptional roofing services to our customers is unmatched. We understand the importance of a solid roof over your head, and we take pride in delivering the best results possible.
+              </p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bx-shape-square"></i></div>
+              <h4 class="title"><a href="">Highly Recommended</a></h4>
+              <p class="description">Our customers choose us.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-body"></i></div>
+              <h4 class="title"><a href="">Experienced Crew</a></h4>
+              <p class="description">Professional Roof Installers.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-happy-alt"></i></div>
+              <h4 class="title"><a href="">Warranty</a></h4>
+              <p class="description">10 year warranty on workmanship.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>Why Us</h2>
+          <h3>Why you should <span>choose us</span>?</h3>
+          <p>We will meet your roofing needs and won’t disappoint you. Our priority is customer satisfaction and we will carry this out through our years of experience. </p>
+        </div>
+    
+        <div class="row">
+    
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up">
+              <span>01</span>
+              <h4>Experienced Team</h4>
+              <p>Our team of highly skilled and experienced professionals is committed to delivering the best results for your roofing needs.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+              <span>02</span>
+              <h4>Quality Workmanship</h4>
+              <p>We use only the highest quality materials and take great care to ensure that our workmanship meets the highest standards.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <span>03</span>
+              <h4>Customer Satisfaction</h4>
+              <p>We are committed to providing exceptional service to our clients. <br> </br> </p>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+    </section><!-- End Why Us Section -->
+
+    
+
+     <!-- ======= Portfolio Section ======= -->
+     <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>What we can do</h2>
+
+        </div>
+
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <img src="assets/img/Concrete Tile.jpg" class="img-fluid" alt="">
+            <center>
+              <h5 style="margin-top: 20px;">Concrete Tile</h4>
+            </center>             
+        </div>
+    
+        <div class="col-lg-4 col-md-6 portfolio-item">
+            <img src="assets/img/Sidewall Shingles.jpg" class="img-fluid" alt="">
+            <center>
+              <h5 style="margin-top: 20px;">Sidewall Shingles</h4>
+            </center>             
+        </div>
+    
+        <div class="col-lg-4 col-md-6 portfolio-item">
+            <img src="assets/img/Metal Dormers.webp" class="img-fluid" alt="">
+            <center>
+              <h5 style="margin-top: 20px;">Metal Dormers</h4>
+            </center>             
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <img src="assets/img/Shingle Dormers.jpg" class="img-fluid" alt="">
+          <center>
+            <h5 style="margin-top: 20px;">Asphalt Shingle Dormers</h4>
+          </center>             
+      </div>
+  
+      <div class="col-lg-4 col-md-6 portfolio-item">
+          <img src="assets/img/Shingles.jpg" class="img-fluid" alt="">
+          <center>
+            <h5 style="margin-top: 20px;">Shingles</h4>
+          </center>             
+      </div>
+  
+      <div class="col-lg-4 col-md-6 portfolio-item">
+          <img src="assets/img/Chimney Flashing.jpg" class="img-fluid" alt="">
+          <center>
+            <h5 style="margin-top: 20px;">Chimney Flashing</h4>
+          </center>             
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <img src="assets/img/Concrete Tile Dormers.jpg" class="img-fluid" alt="">
+        <center>
+          <h5 style="margin-top: 20px;">Concrete Tile Dormer</h4>
+        </center>             
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+        <img src="assets/img/Metal Barrel Dormer.jpg" class="img-fluid" alt="">
+        <center>
+          <h5 style="margin-top: 20px;">Metal Barrel Dormer</h4>
+        </center>             
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+        <img src="assets/img/Metal Roof Dormer.jpg" class="img-fluid" alt="">
+        <center>
+          <h5 style="margin-top: 20px;">Metal Roof Dormer</h4>
+        </center>             
+    </div>
+
+
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+      <img src="assets/img/Chimney Caps.jpg" class="img-fluid" alt="">
+      <center>
+        <h5 style="margin-top: 20px;">Chimney Caps</h4>
+      </center>             
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item">
+      <img src="assets/img/Custom Copper Barrel Dormer.jpg" class="img-fluid" alt="">
+      <center>
+        <h5 style="margin-top: 20px;">Custom Copper Barrel Dormer</h4>
+      </center>             
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item">
+      <img src="assets/img/Copper Barrel Roof Entry.jpg" class="img-fluid" alt="">
+      <center>
+        <h5 style="margin-top: 20px;">Copper Barrel Roof Entry</h4>
+      </center>             
+  </div>
+
+
+  <div class="col-lg-4 col-md-6 portfolio-item">
+    <img src="assets/img/Metal.jpg" class="img-fluid" alt="">
+    <center>
+      <h5 style="margin-top: 20px;">Metal</h4>
+    </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+    <img src="assets/img/Torch on Deck.jpg" class="img-fluid" alt="">
+    <center>
+      <h5 style="margin-top: 20px;">Torch on Deck</h4>
+    </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+    <img src="assets/img/Skylights.jpg" class="img-fluid" alt="">
+    <center>
+      <h5 style="margin-top: 20px;">Skylights</h4>
+    </center>             
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Torch on flat roof.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Torch on flat roof</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Exterior Cladding.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Exterior Cladding</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Snow Guards.png" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Snow Guards</h4>
+  </center>             
+</div>
+
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Flat Roof Renovation.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Flat Roof Renovation</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Home Addition.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Home Addition</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Riding Arena.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Riding Arena</h4>
+  </center>             
+</div>
+
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Decorative Dormers.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Decorative Dormers</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Mansard Roof Dormers.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Mansard Roof Dormers</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Shed Roof.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Shed Roof</h4>
+  </center>             
+</div>
+
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Duplex.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Duplex</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Chimney Removed Patch Work.jpg" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Chimney Removed Patch Work</h4>
+  </center>             
+</div>
+
+<div class="col-lg-4 col-md-6 portfolio-item">
+  <img src="assets/img/Multi Family.webp" class="img-fluid" alt="">
+  <center>
+    <h5 style="margin-top: 20px;">Multi Family</h4>
+  </center>             
+</div>
+
+
+
+
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container">
+
+    <div class="section-title" data-aos="zoom-in">
+      <h2>Contact</h2>
+    </div>
+
+
+    <div class="row mt-5">
+
+      <div class="col-lg-4" data-aos="fade-right">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>Surrey, BC</p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>sgroofing22@gmail.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>+1 604 720 8142</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+        <form id="contact-form">
+         <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5"  id = "message" placeholder="Message" required></textarea>
+          </div>
+
+          <div class="php-email-form text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+
+
+
+
+
+
+
+
+
+  </main><!-- End #main -->
+
+  
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
